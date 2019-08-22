@@ -11,5 +11,6 @@
     </keep-names>
     <property name="log-file" value="log.xml"/>
 
+    <!-- 控制代码失效时间 -->
     <expiry date="2019/08/25" string="EXPIRED!"/>
 </config>
