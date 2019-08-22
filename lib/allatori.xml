@@ -1,0 +1,15 @@
+<config>
+    <input>
+        <!-- in指定混淆加密之前的jar,out指定加密后的jar -->
+        <jar in="../target/demo-0.0.1-SNAPSHOT.jar" out="../target/demo-0.0.1-SNAPSHOT-obfuscated.jar"/>
+    </input>
+    <keep-names>
+        <class access="protected+">
+            <field access="protected+"/>
+            <method access="protected+"/>
+        </class>
+    </keep-names>
+    <property name="log-file" value="log.xml"/>
+
+    <expiry date="2019/08/25" string="EXPIRED!"/>
+</config>
